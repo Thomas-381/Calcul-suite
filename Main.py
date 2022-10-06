@@ -5,7 +5,7 @@ if ga == 1:
     if SM == 2:
         a = float(input("Entrez le premier terme : "))
         b = float(input("entrez le second terme : "))
-        gmoyenne = sqrt(a*b)
+        gmoyenne = str(a*b)
         print("la moyenne de la suite geométrique est de", gmoyenne)
     elif SM == 1:
         n = int(input("entrez n :"))
